@@ -7,13 +7,13 @@
 
 # Site settings
 title:  XMZPC的博客
-subtitle: 分享技术，品味人生
-name: XMZPC的博客 
+subtitle: 有道无术，术尚可求
+name: XMZPC的博客
 email: ityouknow@126.com
 description: 本站是XMZPC的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
 keywords: ityouknow,XMZPC,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
 encoding: "utf-8"
-favicon: favicon.ico 
+favicon: favicon.ico
 
 repository: xmzpc/xmzpc.github.io
 github_url: https://github.com/xmzpc
@@ -56,32 +56,32 @@ paginate_path: 'page:num'
 menus:
 
   -
-    href: /python.html
-    label: Python  
+    href: /
+    label: Python
     target: _self
 
   -
-    href: /it.html
+    href: /
     label: IT
     target: _self
 
   -
-    href: /zsxq.html
+    href: /
     label: 星球
-    target: _self   
+    target: _self
 
   -
-    href: /life.html
+    href: /
     label: 故事
     target: _self
 
   -
-    href: /arch.html
+    href: /
     label: 架构
     target: _self
 
   -
-    href: /link.html
+    href: /
     label: 友链
     target: _self
 
@@ -96,7 +96,7 @@ navs:
 
   -
     href: /spring-boot.html
-    label: Spring Boot
+    label: 框架
     target: _self
     subnav:
 
@@ -106,29 +106,43 @@ navs:
 
       -
         subHref: /spring-cloud.html
-        subLabel: Spring Cloud
+        subLabel: SpringMVC
+      -
+        subHref: /spring-boot.html
+        subLabel: Spring
+      -
+        subHref: /spring-boot.html
+        subLabel: Mybatis
 
   -
+
     href: /spring-cloud.html
-    label: Spring Cloud
-    target: _self
-
-  -
-    
-    href: http://www.justdojava.com
     label: Java
-    target: _blank
+    target: _self
     subnav:
 
       -
         subHref: /java.html
-        subLabel: Jvm 系列文章
-        
-      -
-        subHref: http://www.justdojava.com
-        subLabel: Java 极客技术
-        target: _blank
+        subLabel: Jvm
 
+      -
+        subHref: /spring-cloud.html
+        subLabel: 并发编程
+
+
+  -
+    href: /spring-cloud.html
+    label: 其他
+    target: _self
+    subnav:
+
+      -
+        subHref: /java.html
+        subLabel: Mysql
+
+      -
+        subHref: /spring-cloud.html
+        subLabel: 算法与数据结构
   -
     href: /archives.html
     label: Archives
@@ -145,7 +159,7 @@ labels:
 
   -
     href: /payment.html
-    label: 支付     
+    label: 支付
     target: _self
 
   -
@@ -165,7 +179,7 @@ labels:
 
   -
     href: /open-source.html
-    label: Code  
+    label: Code
     target: _blank
 
   -
@@ -232,16 +246,16 @@ disqus:
     username: ityouknow
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: xmzpc
     repo: blog-comments
     oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+        client_id: e267cdd869a3755cd1c2
+        client_secret: e6b9175415ad6ea762455e3f8f666e61193af4db
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ityouknow
+    owner: xmzpc
     repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    clientID: e267cdd869a3755cd1c2
+    clientSecret: e6b9175415ad6ea762455e3f8f666e61193af4db
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
