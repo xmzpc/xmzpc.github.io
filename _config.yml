@@ -247,14 +247,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: xmzpc
-    repo: blog-comments
+    repo: xmzpc.github.io
     oauth:
         client_id: e267cdd869a3755cd1c2
         client_secret: e6b9175415ad6ea762455e3f8f666e61193af4db
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: xmzpc
-    repo: blog-comments
+    repo: xmzpc.github.io
     clientID: e267cdd869a3755cd1c2
     clientSecret: e6b9175415ad6ea762455e3f8f666e61193af4db
 # 在使用其它评论组件时可点击显示 Disqus
