@@ -100,7 +100,7 @@ public class WebConfiguration {
 ### 配置在 application.properties 中
 
 ``` xml
-com.neo.title=纯洁的微笑
+com.neo.title=XMZPC
 com.neo.description=分享生活和技术
 ```
 

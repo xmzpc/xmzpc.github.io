@@ -94,5 +94,5 @@ excerpt: 凭啥这么牛
 
 ![](http://favorites.ren/assets/images/2019/it/zsxqthree05.jpeg)
 
-*PS:本活动一切解释权归纯洁的微笑。*
+*PS:本活动一切解释权归XMZPC。*
 
