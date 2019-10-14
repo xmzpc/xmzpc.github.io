@@ -123,7 +123,7 @@ navs:
 
       -
         subHref: /java.html
-        subLabel: Jvm
+        subLabel: JVM
 
       -
         subHref: /juc.html
@@ -138,7 +138,7 @@ navs:
 
       -
         subHref: /java.html
-        subLabel: Mysql
+        subLabel: MySQL
 
       -
         subHref: /spring-cloud.html

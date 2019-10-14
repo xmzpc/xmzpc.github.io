@@ -2,7 +2,7 @@
 layout: page
 title: J.U.C
 titlebar: juc
-subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; 用于定义类似于线程的自定义子系统,包括线程池,异步 IO 和轻量级任务框架;还提供了设计用于多线程上下文中的 Collection 实现等。>
+subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; 用于定义类似于线程的自定义子系统,包括线程池,异步 IO 和轻量级任务框架;还提供了设计用于多线程上下文中的 Collection 实现等。
 menu: juc
 css: ['blog-page.css']
 permalink: /juc
@@ -11,7 +11,7 @@ permalink: /juc
 <div class="row">
 
     <div class="col-md-12">
-    
+
         <ul id="posts-list">
             {% for post in site.posts %}
                 {% if post.category=='juc' or post.category=='juc' or post.keywords contains 'juc' %}
@@ -24,11 +24,11 @@ permalink: /juc
                 </li>
                 {% endif %}
             {% endfor %}
-        </ul> 
-    
+        </ul>
+
         <!-- Pagination -->
         {% include pagination.html %}
-    
+
         <!-- Comments -->
        <div class="comment">
          {% include comments.html %}
@@ -41,6 +41,6 @@ permalink: /juc
 
         // Enable bootstrap tooltip
         $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-    
+
     });
 </script>
