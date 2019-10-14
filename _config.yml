@@ -96,7 +96,7 @@ navs:
 
   -
     href: /spring-boot.html
-    label: 框架
+    label: Framework
     target: _self
     subnav:
 
@@ -129,10 +129,13 @@ navs:
         subHref: /juc.html
         subLabel: 并发编程
 
+      -
+        subHref: /collection.html
+        subLabel: 集合框架
 
   -
     href: /spring-cloud.html
-    label: 其他
+    label: Others
     target: _self
     subnav:
 
