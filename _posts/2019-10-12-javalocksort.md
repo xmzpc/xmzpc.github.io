@@ -94,3 +94,6 @@ synchronized void setB() throws Exception{
 ## 总结
 
 ![](https://raw.githubusercontent.com/xmzpc/PicBed/master/img/201910/20191012142252.jpg)
+
+[高清图点这里](https://raw.githubusercontent.com/xmzpc/PicBed/master/img/201910/20191012142252.jpg)
+
