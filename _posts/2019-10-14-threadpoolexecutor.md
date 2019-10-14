@@ -331,3 +331,9 @@ public void execute(Runnable command) {
 ## 总结
 
 线程池巧妙地使用了一个Integer类型的原子变量来记录线程池状态和线程池中的线程个数，通过线程池状态来控制任务的执行，每个worker线程可以处理多个任务。线程池通过线程的复用减少了线程创建和销毁的开销。
+
+## 参考
+
+[【死磕Java并发】—–J.U.C之线程池：ThreadPoolExecutor](http://cmsblogs.com/?p=2448)
+
+[Java并发编程之美]()
