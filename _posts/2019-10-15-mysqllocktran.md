@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 深入理解mysql锁与事务隔离级别
+title: 深入理解MySQL锁与事务隔离级别
 category: mysql
 tags: [mysql]
 lock: need
