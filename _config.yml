@@ -140,7 +140,7 @@ navs:
     subnav:
 
       -
-        subHref: /java.html
+        subHref: /mysql.html
         subLabel: MySQL
 
       -
