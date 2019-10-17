@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java中锁的分类
-category: juc
+category:juc
 tags: [juc]
 lock: need
 excerpt: 这篇文章介绍Java中各种锁的分类
