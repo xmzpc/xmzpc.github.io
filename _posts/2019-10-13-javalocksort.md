@@ -4,7 +4,7 @@ title: Java中锁的分类
 category:juc
 tags: [juc]
 lock: need
-excerpt: 这篇文章介绍Java中各种锁的分类
+excerpt: 这篇文章介绍Java中各种锁的分类。
 ---
 
 在读很多并发文章中，会提及各种各样锁如公平锁，乐观锁等等，这篇文章介绍各种锁的分类。介绍的内容如下：
