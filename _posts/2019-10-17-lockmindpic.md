@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java并发体系脑图
-category:juc
+category: juc
 tags: [juc]
 lock: need
 excerpt: 基于Doug Lea大神写的J.U.C包整理的Java并发体系脑图。
