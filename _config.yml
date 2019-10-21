@@ -142,6 +142,9 @@ navs:
       -
         subHref: /mysql.html
         subLabel: MySQL
+      -
+        subHref: /redis.html
+        subLabel: Redis
 
       -
         subHref: /spring-cloud.html
