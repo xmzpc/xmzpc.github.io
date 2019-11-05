@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Java Core
-titlebar: java core
-subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; Java是一门面向对象编程语言，不仅吸收了C++语言的各种优点，还摒弃了C++里难以理解的多继承、指针等概念，因此Java语言具有功能强大和简单易用两个特征。
-menu: java
+title: JVM
+titlebar: jvm
+subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; JVM是Java Virtual Machine（Java虚拟机）的缩写，JVM是一种用于计算设备的规范，它是一个虚构出来的计算机，是通过在实际的计算机上仿真模拟各种计算机功能来实现的。
+menu: jvm
 css: ['blog-page.css']
-permalink: /java
+permalink: /jvm
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /java
     
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='java' or post.category=='java' or post.keywords contains 'java' %}
+                {% if post.category=='jvm' or post.category=='jvm' or post.keywords contains 'jvm' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
