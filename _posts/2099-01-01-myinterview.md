@@ -296,3 +296,30 @@ Redis为持久化提供了两种方式：
 
 - RDB：在指定的时间间隔能对你的数据进行快照存储。
 - AOF：记录每次对服务器写的操作,当服务器重启的时候会重新执行这些命令来恢复原始的数据。
+
+### git merge和git rebase的区别
+
+场景： 
+
+![](https://raw.githubusercontent.com/xmzpc/PicBed/master/img/201911/20191111090608.png)
+
+如图所示：你在一个feature分支进行新特性的开发，与此同时，master 分支的也有新的提交。
+
+为了将master 上新的提交合并到你的feature分支上，你有两种选择：merging or rebasing
+
+#### 使用merge
+
+那么此时在feature上git 自动会产生一个新的commit(merge commit) 
+look like this： 
+
+![](https://raw.githubusercontent.com/xmzpc/PicBed/master/img/201911/20191111090704.png)
+
+#### 使用rebase
+
+本质是变基 变基 变基 
+变基是什么? 找公共祖先
+
+![](https://raw.githubusercontent.com/xmzpc/PicBed/master/img/201911/20191111090742.png)
+
+会合并之前的commit历史 
+
