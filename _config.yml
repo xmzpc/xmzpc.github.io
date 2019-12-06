@@ -96,23 +96,15 @@ navs:
 
   -
     href: /
-    label: Framework
+    label: Go
     target: _self
     subnav:
 
       -
-        subHref: /spring-boot.html
-        subLabel: Spring Boot
+        subHref: /go.html
+        subLabel: Go Core
 
-      -
-        subHref: /spring-cloud.html
-        subLabel: SpringMVC
-      -
-        subHref: /spring-boot.html
-        subLabel: Spring
-      -
-        subHref: /spring-boot.html
-        subLabel: Mybatis
+
 
   -
 
