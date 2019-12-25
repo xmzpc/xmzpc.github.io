@@ -143,9 +143,7 @@ navs:
       -
         subHref: /dubbo.html
         subLabel: Dubbo
-      -
-        subHref: /spring-cloud.html
-        subLabel: 算法与数据结构
+      
   -
     href: /archives.html
     label: Archives
