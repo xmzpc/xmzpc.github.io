@@ -146,6 +146,9 @@ navs:
       -
         subHref: /spring.html
         subLabel: Spring  
+      -
+        subHref: /distributed.html
+        subLabel: 分布式    
       
   -
     href: /archives.html
