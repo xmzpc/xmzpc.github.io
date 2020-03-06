@@ -96,13 +96,16 @@ navs:
 
   -
     href: /
-    label: Go
+    label: Spring
     target: _self
     subnav:
 
-      -
-        subHref: /go.html
-        subLabel: Go Core
+       -
+        subHref: /spring.html
+        subLabel: Spring  
+       -
+        subHref: /springcloud.html
+        subLabel: Spring-Cloud  
 
 
 
@@ -144,11 +147,12 @@ navs:
         subHref: /dubbo.html
         subLabel: Dubbo
       -
-        subHref: /spring.html
-        subLabel: Spring  
+        subHref: /go.html
+        subLabel: Go Core
       -
         subHref: /distributed.html
         subLabel: 分布式    
+      
       
   -
     href: /archives.html
